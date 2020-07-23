@@ -6,7 +6,7 @@
     >
       <v-toolbar-title>User profile</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn v-if="$cookies.get('token')" text @click.prevent="logout">
+      <v-btn v-if="$cookies.get('user-token')" text @click.prevent="logout">
         Loguot
       </v-btn>
     </v-app-bar>
